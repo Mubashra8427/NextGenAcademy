@@ -24,7 +24,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q NextGenAcademy-Extracted.zip -d project
+          unzip -q NextGenAcademy-Corrected.zip -d project
 
       - name: Build Debug APK
         working-directory: project/NextGenAcademy-Android
