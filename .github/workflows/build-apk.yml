@@ -24,7 +24,8 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q NextGenAcademy-LiveClass-Updated.zip -d project
+          unzip -q NextGenAcademy-LiveClass-TeacherMode.zip -d project
+
       - name: Build Debug APK
         working-directory: project/NextGenAcademy-Android
         run: gradle assembleDebug --no-daemon
